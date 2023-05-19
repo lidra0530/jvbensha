@@ -59,6 +59,11 @@ const routes: Array<RouteRecordRaw> = [
     children: tabbar
   },
   {
+    path: "/order",
+    name: "order",
+    component: () => import("@/views/order/index.vue"),
+  },
+  {
     path: "/charts",
     name: "charts",
     component: () => import("@/views/charts/index.vue")
