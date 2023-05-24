@@ -4,7 +4,7 @@ import { Tabbar } from '@/components'
 
 <template>
   <div class="container flex flex-col h-screen">
-    <div class="flex-1">
+    <div class="flex-1 overflow-auto">
       <RouterView />
     </div>
     <Tabbar />
